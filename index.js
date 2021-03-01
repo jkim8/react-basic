@@ -9,7 +9,7 @@ mongoose.connect('mongodb+srv://jkim:it9001@react-basic.puorg.mongodb.net/test?r
     .catch(err => console.log(err))
 
 app.get('/', (req, res) => {
-  res.send('React basic Learning!')
+  res.send('React basic Learning!!!')
 })
 
 app.listen(port, () => {
